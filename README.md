@@ -18,11 +18,11 @@ Using the HTML below, write a self-executing vanilla JavaScript function that cy
     <body>
         <h1>My Carousel</h1>
         <div class="carousel">
-            <img alt="First" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=1&w=350&h=200" />
-            <img alt="Second" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=2&w=350&h=200" />
-            <img alt="Third" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=3&w=350&h=200" />
-            <img alt="Fourth" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=4&w=350&h=200" />
-            <img alt="Fifth" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=5&w=350&h=200" />
+            <img alt="First" src="https://placehold.co/350x200?text=1" />
+            <img alt="Second" src="https://placehold.co/350x200?text=2" />
+            <img alt="Third" src="https://placehold.co/350x200?text=3" />
+            <img alt="Fourth" src="https://placehold.co/350x200?text=4" />
+            <img alt="Fifth" src="https://placehold.co/350x200?text=5" />
         </div>
         <script>
             // Your Code
