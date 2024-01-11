@@ -39,6 +39,9 @@ Your output should emulate the included animated gif:
 
 If you were to use third-party tools to complete this challenge, what would you use? Write a sentence or two describing your reasoning.
 
+ANSWER ---->
+That would have been the "Slick Carousel" library since it is a feature-rich, responsive, and customizable carousel with a clean API.
+
 ## Guidelines
 
 - All code should be written in ES6 JavaScript.
