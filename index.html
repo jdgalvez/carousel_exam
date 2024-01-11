@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carousel</title>
+    <style>
+      .carousel img {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Carousel</h1>
+    <div class="carousel">
+      <img alt="First" src="https://placehold.co/350x200?text=1" />
+      <img alt="Second" src="https://placehold.co/350x200?text=2" />
+      <img alt="Third" src="https://placehold.co/350x200?text=3" />
+      <img alt="Fourth" src="https://placehold.co/350x200?text=4" />
+      <img alt="Fifth" src="https://placehold.co/350x200?text=5" />
+    </div>
+    <script>
+      (function () {
+        var images = document.querySelectorAll(".carousel img");
+        var currentIndex = 0;
+
+        function showImage(index) {
+          images.forEach(function (img, i) {
+            img.style.display = i === index ? "block" : "none";
+          });
+        }
+
+        function nextImage() {
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+        }
+
+        showImage(currentIndex);
+
+        setInterval(nextImage, 1000);
+      })();
+    </script>
+  </body>
+</html>
